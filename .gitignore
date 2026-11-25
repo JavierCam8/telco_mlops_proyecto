@@ -1,0 +1,29 @@
+cat > .gitignore <<'EOF'
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# MLflow generated data
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# Model artifacts
+models/
+
+# Airflow generated files
+airflow/logs/
+airflow/config/
+airflow/__pycache__/
+
+# Temporary files
+*.log
+.DS_Store

@@ -1,0 +1,8 @@
+scikit-learn==1.9.1
+mlflow==3.18.0
+evidently==0.7.23
+fastapi==0.165.0
+uvicorn[standard]
+pandas==2.3.3
+joblib
+pytest
